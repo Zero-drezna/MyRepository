@@ -1,5 +1,5 @@
 #получаем имя класса, на вход список строк всего класса
-def getClassName(content):
+def getClassName(content): 
 	classNameLine = ''
 	for line in content:
 		if 'class' in line:
@@ -29,7 +29,7 @@ def getPublicMethodsList(content):
 				if sizeBetweenBrackets > 2:
 					pass
 					#обработка случая метода с аргументами(если есть что-то между скобками)
-					#возможно вернуть массив с аргументами??
+					#возможно вернуть массив с аргументами?
 				else:
 					pos1 = item.find('public') + 6
 					pos2 = item.find('{')
