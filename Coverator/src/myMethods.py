@@ -1,5 +1,5 @@
 #получаем имя класса, на вход список строк всего класса
-def getClassName(content):
+def getClassName(content): 
 	classNameLine = ''
 	for line in content:
 		if 'class' in line:
