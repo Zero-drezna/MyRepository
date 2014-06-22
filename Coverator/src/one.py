@@ -3,6 +3,7 @@
 #получить список всез public методов
 import sys
 import myMethods as utils#импортируем функции под именем utils
+print ('python ver: '+sys.version[:3])#print python version
 inFile = open('class.txt')#файл с классом
 content = inFile.readlines()
 inFile.close()
