@@ -1,4 +1,4 @@
-#получаем имя класса, на вход список строк всего класса
+﻿#получаем имя класса, на вход список строк всего класса
 def getClassName(content): 
 	classNameLine = ''
 	for line in content:
