@@ -11,4 +11,4 @@ How to cook:
 
   get Coverator(link?)
   Put your Apex Class in file "Class.txt"
-  open cmd -> run one.py -> get your "test" from cmd
+  open cmd -> run one.py -> get your "test" "testApex.txt" file
