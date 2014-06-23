@@ -1,5 +1,9 @@
 public without sharing class NewAccController {
 	public void mymethodForTest(){
-		test;
+		test();
+	}
+
+	public void myMethodForTest2(){
+		test();
 	}
 }
